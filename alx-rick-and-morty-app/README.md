@@ -1,40 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+This project is a Next.js application that fetches and displays data from the Rick and Morty GraphQL API.
+It is part of the ALX GraphQL learning module, designed to practice GraphQL queries, TypeScript typing, and frontend UI development with React.
 
-## Getting Started
+🚀 Features
 
-First, run the development server:
+Built with Next.js 14 (App Router).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Uses Apollo Client for GraphQL queries.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+TypeScript support with strict typing for better code safety.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Episode Listing: Fetch and display episodes with ID, name, air date, and code.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Reusable EpisodeCard component.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Pagination support to navigate through episodes.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+alx-rick-and-morty-app/
+│── src/
+│   ├── components/        # Reusable UI components (EpisodeCard, Layout, etc.)
+│   ├── graphql/           # Queries and GraphQL logic
+│   ├── pages/             # Next.js pages
+│   ├── types/             # TypeScript interfaces and types
+│   ├── styles/            # Global and module CSS
+│── package.json
+│── tsconfig.json
+│── README.md
