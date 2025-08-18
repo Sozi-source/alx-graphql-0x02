@@ -3,7 +3,7 @@ import { GET_EPISODES } from "@/graphql/queries";
 import { EpisodeProps } from "@/interfaces";
 import { EpisodeCardProps } from "@/interfaces";
 import { useEffect, useState } from "react";
-import EpisodeCard from "@/interfaces/components/common/EpisodeCard";
+import EpisodeCard from "@/components/common/EpisodeCard";
 
 
 
